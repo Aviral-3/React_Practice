@@ -6,7 +6,7 @@ export default function Navbar(props){
    
     return(
         <>
-        <h1 className='text-3xl font-serif italic bg-green-600'> Tracker</h1>
+        <h1 className='text-3xl font-serif italic bg-green-600'>Meal Tracker</h1>
         <form >
             <input className="border mt-2"type='text' value={name}onChange={(e)=>{
                 setName(e.target.value)
