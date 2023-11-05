@@ -21,7 +21,7 @@ function App() {
         <Route path="/counter" element={<Counter/>}/>
         <Route path='/login' element={<Login/>}/>
       </Routes>
-      
+      <Nav/>
       <Hero alert={parentComp} />
       <Counter/>
      
