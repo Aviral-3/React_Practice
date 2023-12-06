@@ -32,7 +32,7 @@ export default function Hero(props) {
 
     return (
         <>
-            <h1 className='text-3xl font-serif italic bg-green-300' id="hero">Enter your name</h1>
+            <h1 className='text-3xl font-serif italic bg-green-600' id="hero">Enter your name</h1>
             <form>
                 <input
                     className="border mt-2"
@@ -49,7 +49,7 @@ export default function Hero(props) {
                     className='rounded-md bg-purple-500 px-2 '
                     onClick={() => props.alert(name)}
                 >
-                    Submit
+                    Submit your answer
                 </button>
             </form>
         </>
