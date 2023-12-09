@@ -4,7 +4,7 @@ const [count,setCounter] = useState(0);
 const[toggle,setToggle] = useState(true);
 const[name,setName] = useState("Ashish Vats");
 const incHandler = ()=>{
-        console.log("clicked increment")
+        console.log("clicked increment button")
         setCounter(count + 1);    //We don't use return in event handler functions
 
     
