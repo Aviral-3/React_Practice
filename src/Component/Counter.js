@@ -12,7 +12,7 @@ const incHandler = ()=>{
 const decHandler = ()=>{
 
     if(count>0){
-    setCounter(count - 1);
+    setCounter(count + 1);
     }
 
 
