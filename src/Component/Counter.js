@@ -43,7 +43,7 @@ return(
             <div className='flex flex-col ' >
                 <p className='bg-gray-300  px-4 py-6 rounded-xl inline'>{name}</p>
 
-                <button className="rounded-xl border-black bg-purple-500 px-4 py-2 m-2 hover:scale-110  duration-200 hover:bg-purple-300" onClick={handleToggle}>Press Me!</button>
+                <button className="rounded-xl border-black bg-blue-500 px-4 py-2 m-2 hover:scale-110  duration-200 hover:bg-purple-300" onClick={handleToggle}>Press Me!</button>
                 
             </div>
 
