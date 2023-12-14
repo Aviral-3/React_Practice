@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './Component/Navbar';
+import Counter from './Component/Counter';
 function App() {
   function parentComp(data){
     alert(data);
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
 
       <Navbar alert={parentComp}/>
+      <Counter/>;
      
     </div>
   );
