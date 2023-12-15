@@ -23,12 +23,14 @@
 import React, { useState, useEffect } from 'react';
 
 export default function Navbar(props) {
-    const [name, setName] = useState("");
+    const [name, setName] = useState("Ashish");
 
     useEffect(() => {
         // This will log the updated value of 'name' whenever it changes
         console.log(name);
     }, [name]);
+
+   
 
     return (
         <>
@@ -37,11 +39,13 @@ export default function Navbar(props) {
                 <input
                     className="border mt-2"
                     type='text'
+                    //value={name}
                     placeholder='name'
-                    value={name}
                     onChange={(e) => {
                         setName(e.target.value);
+                        console.log(e);
                     }}
+                    
                 />
                 <button
                     className='rounded-md bg-purple-500 px-2 '
