@@ -43,7 +43,7 @@ export default function Navbar(props) {
                     placeholder='name'
                     onChange={(e) => {
                         setName(e.target.value);
-                        console.log(e);
+                        // console.log(e);
                     }}
                     
                 />
