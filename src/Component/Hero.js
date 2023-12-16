@@ -22,15 +22,13 @@
 
 import React, { useState, useEffect } from 'react';
 
-export default function Navbar(props) {
+export default function Hero(props) {
     const [name, setName] = useState("Ashish");
 
     useEffect(() => {
         // This will log the updated value of 'name' whenever it changes
         console.log(name);
     }, [name]);
-
-   
 
     return (
         <>

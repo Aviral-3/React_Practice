@@ -1,7 +1,9 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Navbar from './Component/Navbar';
+import Hero from './Component/Hero';
 import Counter from './Component/Counter';
+import Nav from './Component/Nav';
+import { Routes,Route } from 'react-router-dom';
 function App() {
   function parentComp(data){
     alert(data);
@@ -10,8 +12,12 @@ function App() {
   
   return (
     <div className="App">
-
-      <Navbar alert={parentComp}/>
+      <Nav/>
+      {/* <Routes>
+        <Route path="" element={<Hero alert={parentComp}/>}/>
+        <Route path="/counter" element={<Counter/>}/>
+      </Routes> */}
+      <Hero alert={parentComp} />
       <Counter/>
      
     </div>
