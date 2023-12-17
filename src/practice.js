@@ -34,3 +34,14 @@ console.log(arr5.sort());
 //7. reverse()
 
 console.log(arr3.reverse())
+
+//8. Sort using comparioson function
+
+const data = [{name:"Ashish Vats",age:21,dob:'2002-06-10'},{name:"Palak Garg",age:22,dob:'2002-02-07'},{name:"Kartikey Khanna",age:23,dob:'2000-07-12'}]
+// console.log(data);
+console.log(data.sort((a,b)=>{
+    return(
+        // a.age - b.age  //ascending order
+        b.age - a.age  //descending order
+    )
+}));
