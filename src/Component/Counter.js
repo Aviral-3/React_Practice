@@ -31,7 +31,7 @@ const handleToggle=()=>{
 }
 
 return(
-    <div className="bg-orange-50">
+    <div className="bg-orange-50" id="counter">
         <div>
             <p>Counter Check</p>
 
