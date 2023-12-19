@@ -3,6 +3,7 @@ import './App.css';
 import Hero from './Component/Hero';
 import Counter from './Component/Counter';
 import Nav from './Component/Nav';
+import Login from './Component/Login';
 import { Routes,Route } from 'react-router-dom';
 function App() {
   function parentComp(data){
@@ -12,11 +13,15 @@ function App() {
   
   return (
     <div className="App">
-      <Nav/>
-      {/* <Routes>
-        <Route path="" element={<Hero alert={parentComp}/>}/>
+     
+     <Nav/>
+      <Routes>
+      
+        <Route path="/element" element={<Hero alert={parentComp}/>}/>
         <Route path="/counter" element={<Counter/>}/>
-      </Routes> */}
+        <Route path='/login' element={<Login/>}/>
+      </Routes>
+      
       <Hero alert={parentComp} />
       <Counter/>
      
