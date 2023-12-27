@@ -9,8 +9,8 @@ function Nav() {
             <ul className=''>
                 <Softscroll className='text-slate-500 text-lg font-semibold cursor-pointer hover:underline hover:decoration-black  px-4' to="hero" smooth={true} duration={500}>Hero</Softscroll>
                 <Softscroll className='text-slate-500 text-lg font-semibold cursor-pointer hover:underline hover:decoration-black  px-4' to="counter" smooth={true} duration={500} offset={200}>Counter</Softscroll>
-                <Softscroll className='text-slate-500 text-lg font-semibold cursor-pointer hover:underline hover:decoration-black  px-4' to="counter" smooth={true} duration={500} offset={200}>Counter</Softscroll>
-                <Softscroll className='text-slate-500 text-lg font-semibold cursor-pointer hover:underline hover:decoration-black  px-4' to="counter" smooth={true} duration={500} offset={200}>Counter</Softscroll>
+                <Softscroll className='text-slate-500 text-lg font-semibold cursor-pointer hover:underline hover:decoration-black  px-4' to="counter" smooth={true} duration={500} offset={200}>Home</Softscroll>
+                <Softscroll className='text-slate-500 text-lg font-semibold cursor-pointer hover:underline hover:decoration-black  px-4' to="counter" smooth={true} duration={500} offset={200}>About</Softscroll>
             </ul>
         </div>
         <div className=''>
