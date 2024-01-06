@@ -13,7 +13,7 @@
                 
 //                console.log(name)
 //             }}/>
-//             <button className='rounded-md bg-purple-500 px-2 ' onClick={()=>props.alert(data)}>Submitted</button>
+//             <button className='rounded-md bg-purple-500 px-2 ' onClick={()=>props.alert(data)}>Submit</button>
             
 //        </form>
 //         </>
